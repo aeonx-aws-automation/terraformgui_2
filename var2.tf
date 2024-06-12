@@ -33,6 +33,7 @@ variable "cloudwatch_log_group_name" {
 variable "company_name" {
   description = "Enter Name for S3 bucket that prefix with company name"
   type = string
+  default = "demo567890"
 }
 
 variable "trail_name" {
